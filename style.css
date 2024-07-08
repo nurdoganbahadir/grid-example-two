@@ -36,6 +36,9 @@ h3 {
   overflow: hidden;
   cursor: pointer;
 }
+.box:hover{
+    box-shadow: 5px 5px 15px yellow;
+}
 .box1 {
   grid-area: header;
   display: flex;
@@ -43,6 +46,10 @@ h3 {
   justify-content: center;
   border: none;
   background-color: darkred;
+  cursor:default;
+}
+.box1:hover{
+    box-shadow: none;
 }
 
 .box2 {
@@ -76,4 +83,8 @@ p {
   left: 0;
   bottom: 10px;
   font-weight: 700;
+}
+a{
+  background-color: white;
+  text-decoration: none;
 }
